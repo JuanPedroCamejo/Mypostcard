@@ -1,0 +1,63 @@
+
+body { 
+    background-color: black;
+
+}
+
+.tarjeta {
+    background-color: bisque;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+
+.encabezado {
+    display: flex;
+}
+
+.encabezado h1{
+    width: 100%;
+    margin: 0;
+    font-size: 45px;
+}
+
+.encabezado img{
+    width: 50px;
+    height: 50px;
+}
+
+.intermedio {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.intermedio p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px grey solid;
+    
+}
+
+.boton{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 40px;
+    
+}
+
+.boton input{
+    background-color: rgb(99, 96, 96);
+}
+
+
+
+
+
